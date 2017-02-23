@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Taio Jia (jiasir)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+IT guy. Long time coding experience.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jiasir@icloud.com](mailto:jiasir@icloud.com)
