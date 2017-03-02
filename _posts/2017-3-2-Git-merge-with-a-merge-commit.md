@@ -5,7 +5,7 @@ title: Git merge with a merge commit
 
 Git does a fast forward when you merge branch that is ahead of your checked-out branch, git only update the branch pointer. Some people don't like that and want to see a explicit merge.
 
-![Git merge with a merge commit]({{ site.baseurl }}/images/2017-3-2-Git-merge-with-a-merge-commit.png)
+![Git merge with a merge commit]({{ site.baseurl }}/images/2017-3-2-Git-merge-with-a-merge-commit-0.png)
 
     $ git checkout develop
     $ git merge --no-ff myfeature
