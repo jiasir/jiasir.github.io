@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rename git branch locally and remotely
+keywords: git, branch, rename
 ---
 
 There are three steps to rename git branch locally and remotely.
