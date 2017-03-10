@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Multiple Provider Network Configuration in Mitaka
+keywords: openstack, neutron, provider network, mitaka, switches
 ---
 
 Neutron provider VLANs are Neutron networks that map directly to an 802.1Q VLAN in the cloud provider’s physical network infrastructure.
