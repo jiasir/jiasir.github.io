@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I decided to develop Playback?
+keywords: playback, openstack provisioning, juju, autopilot, puppetlabs-openstack, openstack-ansible, kolla, rdo, packstack, tripleo
 ---
 
 Since March 2015 I decided to develop a new automated deployment tool for OpenStack called the [Playback](http://playback.jiasir.io). Because I tried almost all popular tools and these tools are not suitable for me, they are:
