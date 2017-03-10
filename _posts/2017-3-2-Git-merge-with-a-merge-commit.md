@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Git merge with a merge commit
+keywords: git, merge, merge commit, merge messages
 ---
 
 Git does a fast forward when you merge branch that is ahead of your checked-out branch, git only update the branch pointer. Some people don't like that and want to see a explicit merge.
