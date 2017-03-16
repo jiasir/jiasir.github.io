@@ -162,3 +162,24 @@ def print_number(num):
 print(print_number(1))
 ```
 This will sleep two seconds and print 1.
+
+And the example shows decorator with arguments:
+```python
+def my_decorator(name=None):
+    def upper(f):
+      def inner(*args, **kwargs):
+        #do something
+         return f(*args, **kwargs)
+      return inner
+    return upper
+
+@my_decorator(name="jiasir") # the same as my_function = my_decorator(name="jiasir")(my_function)
+def my_function(num):
+    print("Calling my_function! Num: %s" % num)
+
+my_function(1) # the same as my_decorator(name="jiasir")(my_function)(1)
+```
+Output:
+```
+Calling my_function! Num: 1
+```
