@@ -6,7 +6,7 @@ keywords: python, decorator, examples
 
 Decorators provide a simple syntax for calling higher-order functions. A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
 
-#### How function works
+### How function works
 Functions return a value based on the given arguments.
 ```python
 def foo(bar):
@@ -15,7 +15,7 @@ def foo(bar):
 print(foo(2)) # will print 3
 ```
 
-#### What is first class object
+### What is first class object
 All objects that could be named in the language (e.g., integers, strings, functions, classes, modules, methods, etc.) to have equal status. That is, they can be assigned to variables, placed in lists, stored in dictionaries, passed as arguments, and so forth. That were "first class".
 ```python
 def foo(bar):
@@ -32,7 +32,7 @@ def call_foo(foo, arg):
 print(call_foo(foo, 3)) # will print 4
 ```
 
-#### Nested Functions
+### Nested Functions
 This example shows the child functions are not available outside of the parent function.
 ```python
 def parent():
@@ -49,7 +49,7 @@ def parent():
 ```
 When you calling the `parent()` function, you should get that messages. But try calling the `child_1()` or `child_2()` function, you should get an error.
 
-#### Returning Functions
+### Returning Functions
 Python also allows you to return functions from other functions.
 ```python
 def parent(num):
@@ -76,7 +76,7 @@ print(foo()) # output: Printing from the child_1() function.
 print(bar()) # output: Printing from the child_2() function.
 ```
 
-#### Decorators
+### Decorators
 Now, that's show the decorators examples.
 ```python
 def my_decorator(f):
