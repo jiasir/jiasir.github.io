@@ -1,0 +1,56 @@
+baseURL = "https://jiasir.io"
+languageCode = 'en-us'
+title = "jiasir"
+theme = "hugo-coder"
+paginate = 10
+googleAnalytics = "G-W3ZVM6WBMX"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+author = "jiasir"
+info = "Open Source, DevOps, SRE lovers"
+description = "jiasir's personal website"
+keywords = "jiasir,developer,devops,sre"
+avatarurl = "/images/avatar.png"
+favicon_16 = "/images/favicon-16x16.png"
+favicon_32 = "/images/favicon-32x32.png"
+touchIcon = "/images/apple-touch-icon.png"
+since = 2017
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/jiasir/"
+
+[menu]
+[[menu.main]]
+name = "Blog"
+weight = 1
+url = "posts/"
+[[menu.main]]
+name = "Categories"
+weight = 2
+url = "categories/"
+[[menu.main]]
+name = "Series"
+weight = 3
+url = "series/"
+[[menu.main]]
+name = "Tags"
+weight = 4
+url = "tags/"
+[[menu.main]]
+name = "About"
+weight = 5
+url = "about/"
+
+[taxonomies]
+authors = "authors"
+categories = "categories"
+series = "series"
+tags = "tags"
